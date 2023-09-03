@@ -1,0 +1,28 @@
+/* Voir la forme de ma boite vs exercice. J'ai du utiliser width pour ajuster la bordure qu'elle ressemble à
+l'exemple. Demander si c'est ok ou si mes mesures ne sont pas bonnes. J'ai utilisé inspecter pour vérifier
+ */
+
+.Container {
+    padding: 75px 50px 75px;
+    margin: 150px 100px 150px;
+    border: black solid 1px;
+    width: 20%;
+}
+
+.Container > p{
+    text-align: left;
+    font-family: Arial, serif;
+}
+
+.MotCSS {
+    font-family: "Calibri Light", Light, sans-serif ;
+}
+
+.PhraseMauve {
+    color: rebeccapurple;
+}
+
+.MotsItalique{
+    font-style: italic;
+    font-family: "Calibri Light", Light, sans-serif;
+}

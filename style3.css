@@ -1,0 +1,61 @@
+th{
+    background-color: darkcyan;
+    text-align: center;
+    font-weight: bold;
+}
+
+tr:nth-child(odd) {
+    background-color: lightsteelblue;
+}
+
+tr:nth-child(even) {
+    background-color: cornflowerblue;
+}
+
+table {
+    border: black solid 3px;
+    border-spacing: 0; /* Pour enlever l'espace blanc entre les cellules*/
+    width: 350px;
+
+}
+
+table > td {
+    border-collapse: collapse;
+}
+
+table > tbody > tr > td {
+    border: black solid 0.5px;
+}
+
+.TopRow > td {
+    border: black solid 0.5px;
+    border-bottom: black solid 3px ;
+    text-align: center;
+    font-weight: bold;
+}
+
+.TitleRow > th {
+    border-bottom: black solid 1px;
+}
+
+td:nth-child(1){
+    padding-left: 7px;
+}
+
+/* nth-child = elementnumero X. Dans ce cas-ci, td:nth-child(2) sélectionne la 2e colonne*/
+td:nth-child(2){
+    text-align: center;
+}
+
+td:nth-child(3) {
+    padding-left: 7px;
+}
+
+tr >td >a:link {
+    text-decoration: none;
+}
+
+/* Sélecteur est bon, j'ai vérifié en utilisant :hover. Par contre , le lien visité ne change pas de couleur*/
+tr > td >a:visited{
+    color: #ff7f00;
+}

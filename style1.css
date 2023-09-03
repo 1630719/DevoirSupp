@@ -1,0 +1,24 @@
+.MenuVertical{
+    width: 200px;
+    border: black;
+}
+
+.MenuVertical > a {
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: #ff7f00 4px outset;
+    width: 200px;
+    height: 20px;
+    text-decoration: none;
+    color: blue;
+    background-color: lightgoldenrodyellow;
+    padding: 4px 10px;
+    display: block;
+    margin-top: 3px;
+}
+
+.MenuVertical > a:hover {
+    background-color: sandybrown;
+    color: saddlebrown;
+    border: #ff7f00 4px inset;
+}
