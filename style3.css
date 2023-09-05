@@ -55,7 +55,11 @@ tr >td >a:link {
     text-decoration: none;
 }
 
-/* Sélecteur est bon, j'ai vérifié en utilisant :hover. Par contre , le lien visité ne change pas de couleur*/
+
+a:link {
+    color: blue;
+}
+/* Fonctionne avec url, mais pas avec lien mail.*/
 tr > td >a:visited{
     color: #ff7f00;
 }

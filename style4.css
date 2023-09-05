@@ -1,0 +1,35 @@
+.PetiteImage > img{
+    width: 150px;
+    height: 150px;
+    padding: 4px 4px 4px;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.GrosseImage > img{
+    width: 250px;
+    height: 250px;
+    padding: 4px 4px 4px;
+}
+
+.GrosseImage {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.ImageDecalee1 {
+    display: block;
+    float: left;
+    position: absolute;
+    top: 165px;
+}
+
+
+.ImageDecalee2 {
+    display: block;
+    position: absolute;
+    float: left;
+    top: 165px;
+}
