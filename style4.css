@@ -7,29 +7,20 @@
     position: relative;
 }
 
-.GrosseImage > img{
+
+.PetiteImage > a > img{
+    float: unset;
+    clear: both;
     width: 250px;
     height: 250px;
-    padding: 4px 4px 4px;
-}
-
-.GrosseImage {
-    display: block;
-    position: relative;
-    float: left;
 }
 
 .ImageDecalee1 {
-    display: block;
-    float: left;
-    position: absolute;
-    top: 165px;
-}
+    float:unset;
+    clear: left;}
 
 
 .ImageDecalee2 {
-    display: block;
-    position: absolute;
-    float: left;
-    top: 165px;
+    float: unset;
+    clear: left;
 }
