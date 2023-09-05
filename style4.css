@@ -8,19 +8,13 @@
 }
 
 
-.PetiteImage > a > img{
-    float: unset;
-    clear: both;
-    width: 250px;
-    height: 250px;
-}
-
-.ImageDecalee1 {
+.ImageDecalee {
     float:unset;
     clear: left;}
 
-
-.ImageDecalee2 {
-    float: unset;
-    clear: left;
+.PetiteImage > img:hover {
+    width: 300px;
+    height: 300px;
+    transition: clip;
+    transition-delay: 200ms;
 }
